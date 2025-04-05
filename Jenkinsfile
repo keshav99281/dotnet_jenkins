@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'master', url: 'https://github.com/somay007/newapiforazure.git'
+                git branch: 'main', url: 'https://github.com/keshav99281/dotnet_jenkins.git'
             }
         }
       stage('Terraform Init') {
