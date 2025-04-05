@@ -25,7 +25,7 @@ resource "azurerm_windows_web_app" "serviceApp" {
   resource_group_name = azurerm_resource_group.rgasp.name
   site_config {
     application_stack {
-      dotnet_version = "8.0"
+      dotnet_version = "v8.0"
     }
 }
     
